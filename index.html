@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Landespolizei Rheinkreis</title>
+<style>
+:root{--bg:#050b1a;--bg2:#0a1630;--card:#0e1f45;--blue:#1e6bff;--text:#eaf0ff;--muted:#9fb0d6;--line:#1c2f5e;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font-family:"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:rgba(5,11,26,.95);border-bottom:2px solid var(--blue);display:flex;flex-wrap:wrap;gap:4px;align-items:center;padding:8px 16px}
+nav strong{margin-right:auto;letter-spacing:1px}
+nav a{color:var(--text);text-decoration:none;padding:6px 10px;border-radius:6px;font-size:.9rem}
+nav a:hover{background:var(--blue)}
+header{text-align:center;padding:70px 20px;background:radial-gradient(circle at 50% 0,#12337a,var(--bg) 70%)}
+header img{width:220px;max-width:60%;height:auto}
+.ph{width:200px;height:200px;border-radius:50%;border:4px solid var(--blue);margin:0 auto;display:grid;place-items:center;color:var(--muted);font-size:.8rem}
+h1{font-size:clamp(2rem,6vw,3.4rem);margin:16px 0 4px;letter-spacing:3px;text-transform:uppercase}
+header p{color:var(--muted);margin:0}
+.btn{display:inline-block;margin-top:22px;background:var(--blue);color:#fff;padding:12px 26px;border-radius:8px;text-decoration:none;font-weight:600}
+section{max-width:960px;margin:0 auto;padding:56px 20px}
+section:nth-of-type(even){max-width:none;background:var(--bg2)}
+section:nth-of-type(even)>*{max-width:920px;margin-left:auto;margin-right:auto}
+h2{border-left:5px solid var(--blue);padding-left:12px;text-transform:uppercase;letter-spacing:1px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.card h3{margin-top:0;color:#7fb0ff}
+ol,ul{padding-left:20px}
+footer{text-align:center;padding:30px 20px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<nav>
+<strong>LANDESPOLIZEI RHEINKREIS</strong>
+<a href="#start">Start</a><a href="#ueber-uns">Über uns</a><a href="#schutzpolizei">Schutzpolizei</a><a href="#kriminalpolizei">Kripo</a><a href="#gsg9">GSG 9</a><a href="#bewerbung">Bewerbung</a><a href="#regelwerk">Regelwerk</a><a href="#kontakt">Kontakt</a>
+</nav>
+
+<header id="start">
+<!-- Logo: Datei als logo.png neben index.html hochladen, dann erscheint es automatisch -->
+<img src="logo.png" alt="Logo Landespolizei Rheinkreis" onerror="if(!this.dataset.t){this.dataset.t=1;this.src='Polizei-Emblem%20mit%20Rheinlandschaft.png'}else{this.outerHTML='<div class=ph>Logo hier einfügen</div>'}">
+<h1>Landespolizei Rheinkreis</h1>
+<p>Schutz. Sicherheit. Verantwortung.</p>
+<a class="btn" href="#bewerbung">Jetzt bewerben</a>
+</header>
+
+<section id="ueber-uns">
+<h2>Über uns</h2>
+<p>Die Landespolizei Rheinkreis sorgt auf unserem Server für Recht und Ordnung. Wir arbeiten fair, teamorientiert und mit viel Spaß am realistischen Rollenspiel.</p>
+<div class="grid">
+<div class="card"><h3>Teamgeist</h3>Gemeinsam im Einsatz, gemeinsam im Training.</div>
+<div class="card"><h3>Realismus</h3>Saubere Abläufe, Funkdisziplin und Professionalität.</div>
+<div class="card"><h3>Entwicklung</h3>Ausbildung, Beförderungen und Spezialeinheiten.</div>
+</div>
+</section>
+
+<section id="schutzpolizei">
+<h2>Schutzpolizei</h2>
+<p>Die Schutzpolizei ist das Gesicht der Polizei auf der Straße: Streifendienst, Verkehrskontrollen, Einsätze und Prävention.</p>
+<ul><li>Streifendienst und Notrufe</li><li>Verkehrsüberwachung</li><li>Erstmaßnahmen am Tatort</li></ul>
+</section>
+
+<section id="kriminalpolizei">
+<h2>Kriminalpolizei</h2>
+<p>Die Kripo ermittelt in Zivil: Spurensicherung, Vernehmungen, Observationen und die Aufklärung schwerer Straftaten.</p>
+<ul><li>Ermittlungen und Fallarbeit</li><li>Spurensicherung</li><li>Zivile Einsätze</li></ul>
+</section>
+
+<section id="gsg9">
+<h2>GSG 9</h2>
+<p>Die Spezialeinheit für höchste Gefahrenlagen: Geiselnahmen, Zugriffe und Hochrisikoeinsätze. Der Zugang ist nur nach erfolgreicher Auswahl möglich.</p>
+<div class="grid">
+<div class="card"><h3>Voraussetzungen</h3>Erfahrung im Dienst, gutes Teamplay, bestandener Eignungstest.</div>
+<div class="card"><h3>Aufgaben</h3>Zugriff, Geiselbefreiung, Unterstützung bei Großlagen.</div>
+</div>
+</section>
+
+<section id="bewerbung">
+<h2>Bewerbung</h2>
+<ol><li>Mindestens 16 Jahre alt und auf dem Discord aktiv</li><li>Mikrofon und sauberes Auftreten</li><li>Regelwerk gelesen und verstanden</li><li>Bewerbung im Discord-Ticket einreichen</li></ol>
+<a class="btn" href="#kontakt">Zum Kontakt</a>
+</section>
+
+<section id="regelwerk">
+<h2>Regelwerk</h2>
+<ul><li>Respektvoller Umgang miteinander, jederzeit</li><li>Kein Metagaming und kein Powergaming</li><li>Funkdisziplin und Anweisungen der Leitung befolgen</li><li>Dienstgrade und Befehlskette einhalten</li><li>Fair Play im Einsatz</li></ul>
+</section>
+
+<section id="kontakt">
+<h2>Kontakt</h2>
+<p>Schreib uns auf unserem Discord-Server und öffne ein Ticket im Bewerbungs- oder Support-Kanal.</p>
+<!-- Hier statt DEINCODE deinen Discord-Einladungscode eintragen -->
+<a class="btn" href="https://discord.gg/wAAUVzPAAQ" target="_blank" rel="noopener">Zum Discord</a>
+</section>
+
+<footer>Fiktive Seite für ein Rollenspiel. Keine echte Behörde und keine Verbindung zur realen Polizei.</footer>
+</body>
+</html>
